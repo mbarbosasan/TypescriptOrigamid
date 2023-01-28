@@ -45,10 +45,10 @@
 //   console.log(extractText(link).el.href)
 // }
 //Recriando a forma de seleção de elementos do JQuery
-function $(selector) {
-    return document.querySelector(selector);
-}
-const link = $("a")?.href;
+// function $<T extends Element>(selector: string): T | null {
+//   return document.querySelector(selector)
+// }
+// const link = $<HTMLAnchorElement>("a")?.href
 async function getData(url) {
     const response = await fetch(url);
     return await response.json();

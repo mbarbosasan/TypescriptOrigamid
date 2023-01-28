@@ -60,11 +60,11 @@
 
 //Recriando a forma de seleção de elementos do JQuery
 
-function $<T extends Element>(selector: string): T | null {
-  return document.querySelector(selector)
-}
+// function $<T extends Element>(selector: string): T | null {
+//   return document.querySelector(selector)
+// }
 
-const link = $<HTMLAnchorElement>("a")?.href
+// const link = $<HTMLAnchorElement>("a")?.href
 
 async function getData<T>(url: string): Promise<T> {
   const response = await fetch(url);
