@@ -1,4 +1,4 @@
-function typeGuard(value: any) {
+function typeGuard(value: unknown) {
   if (typeof value === "string") {
     return value.toLowerCase();
   }
@@ -25,7 +25,7 @@ if (("preco") in obj) {
 }
 
 async function fetchProduto() {
-  const response = await fetch('https://api.origamid.dev/json/notebook.json')
+  const response = await fetch('https://api.origamid.dev/json/cursos.json')
   const json = await response.json();
   handleProduto(json)
 }

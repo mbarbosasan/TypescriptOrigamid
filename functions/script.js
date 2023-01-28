@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function somar(a, b, c) {
     return a + b + (c ? c : 0);
 }
@@ -49,3 +47,4 @@ function roundedNumbers(value) {
 }
 console.log(roundedNumbers(200.32));
 console.log(roundedNumbers("200.32"));
+export {};

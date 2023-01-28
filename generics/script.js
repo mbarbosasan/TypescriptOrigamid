@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // function retorno<variavel>(a: variavel): variavel {
 //   return a
 // }
@@ -59,3 +57,4 @@ async function handleData() {
     console.log(notebook.nome);
 }
 handleData();
+export {};

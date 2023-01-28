@@ -21,7 +21,7 @@ if (("preco") in obj) {
     console.log("Sim");
 }
 async function fetchProduto() {
-    const response = await fetch('https://api.origamid.dev/json/notebook.json');
+    const response = await fetch('https://api.origamid.dev/json/cursos.json');
     const json = await response.json();
     handleProduto(json);
 }
