@@ -1,3 +1,5 @@
+export {}
+
 function somar(a: number, b: number, c?: number): number {
   return a + b + (c ? c : 0);
 }

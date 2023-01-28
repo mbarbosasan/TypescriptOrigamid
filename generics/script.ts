@@ -1,3 +1,5 @@
+export {}
+
 // function retorno<variavel>(a: variavel): variavel {
 //   return a
 // }

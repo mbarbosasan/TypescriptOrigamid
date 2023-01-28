@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function somar(a, b, c) {
     return a + b + (c ? c : 0);
 }
