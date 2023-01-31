@@ -1,5 +1,9 @@
 "use strict";
 const { body } = document;
+// interface Produto {
+//   nome: string,
+//   preco: number
+// }
 function handleData({ nome, preco }) {
     nome.includes("book");
     preco?.toFixed;

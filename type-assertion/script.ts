@@ -1,7 +1,7 @@
-interface Produto {
-  nome: string,
-  preco: number,
-}
+// interface Produto {
+//   nome: string,
+//   preco: number,
+// }
 
 async function fetchProduto() {
   const response = await fetch('https://api.origamid.dev/json/notebook.json')

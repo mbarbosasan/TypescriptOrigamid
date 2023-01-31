@@ -1,9 +1,9 @@
 const { body }: {body: HTMLElement} = document
 
-interface Produto {
-  nome: string,
-  preco: number
-}
+// interface Produto {
+//   nome: string,
+//   preco: number
+// }
 
 function handleData({nome, preco}: Produto) {
   nome.includes("book")
